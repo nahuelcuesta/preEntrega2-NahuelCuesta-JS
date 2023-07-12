@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@300;400;500;700;900&display=swap');
+/*FUENTES
+font-family: 'Caprasimo', cursive;
+font-family: 'Inter', sans-serif;
+*/
+body{
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-shadow: rgb(255, 255, 255) 1px 1px 2px;
+font-family: 'Caprasimo', cursive;
+}
