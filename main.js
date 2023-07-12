@@ -10,7 +10,6 @@ class agencia {
         this.mail = mail;
 
     }
-
 }
 
 const agencia1 = new agencia (true, "agencia1", "caballito", "Av Rivadavia", 5300, 1145547678, "agencia1@gmail.com");
