@@ -1,4 +1,11 @@
-Hola Nahue, gracias por la prorroga para la entrega, 
-antes del viernes subo la entrega completa, ya me estoy terminando de poner al dia 
-con las clases y terminando de redondear la idea del proyecto. 
-Abrazo!
+Buenas Nahue! espero que te haya ido bien en los examenes! Aca ya complete el codigo, 
+aunque la verdad no estoy conforme al 100... No quise hacerlo igual que el profesor en la clase 8 
+e intente crear los objetos desde un construrctor,lo cual se ve que me mareo bastante al momento
+de llamar a las propiedades de cada objeto dentro del array.
+Lo que tampooco pude es encontrar la logica para que cuando el usuario busque un nombre que no este en la 
+lista mediante un consol.log decir que ese nombre no existe.
+Lo intente, pero llegue hasta aca.. jeje.
+
+Evidentemente hay conceptos que aun no me quedan del todo claro al juntarlos. 
+Voy a seguir reviendo las clases grabadas porque no me va a ganar :) 
+Abrazo!! 

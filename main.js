@@ -1,18 +1,13 @@
-class agencia {
-    constructor(logo, nombre, localidad, calle, numero, celular, mail ) {
+console.log("localidades que podes buscar")
+console.log("----------------------------")
+AGENCIAS.forEach (function(agencia){
+    console.log(agencia.localidad);
+})
+//variable para pedir al usuario que ingrese dato y lo convierto a mayusculas
+let ingresaLocalidad = prompt ("Busca por localidad, CABALLITO, ALMAGRO, RECOLETA, PALERMO O");
+//Filtro las agencias segun la localidad que ingrese el usuario y lo convierto a mayusculas para no tener errores
+let buscarPorLocalidad = AGENCIAS.filter((item) => item.localidad===ingresaLocalidad.toUpperCase());
 
-        this.logo = logo;
-        this.nombre = nombre;
-        this.localidad = localidad;
-        this.calle = calle;
-        this.numero = Number(numero);
-        this.celular = celular;
-        this.mail = mail;
-
-    }
-}
-
-const agencia1 = new agencia (true, "agencia1", "caballito", "Av Rivadavia", 5300, 1145547678, "agencia1@gmail.com");
-const agencia2 = new agencia (true, "agencia2", "palermo", "Av Santa fe", 3598, 1187786545, "agencia2@gmail.com");
+console.log(buscarPorLocalidad);
 
 
